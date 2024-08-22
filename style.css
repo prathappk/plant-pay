@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh; 
+  background-image: url(./Assests/plant.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+.navbar ul li {
+  align-items: center;
+  display: inline;
+  margin-left: 50px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-transform: uppercase;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navbar ul li a .first-word {
+  color: #fff;
+  font-size: 200px
+  margin-bottom: 20%;
+  
+}
+
+#gateway {
+  width: 40%;
+  display: flex;
+  font-size: 65px;
+  margin-top: 15%;
+  margin-left: 42%;
+  color: #36d100;
+}
+
+#download-btn {
+  width: 15%;
+  height: 70px;
+  font-size: 28px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 80%;
+  margin-top: 2%;
+}
+
+#menu {
+  display: flex;
+}
+
+.investment {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  align-items: flex-start;
+  width: 87%;
+  justify-content: space-between;
+  gap: 10%;
+  font-size: 28px;
+}
+
+.plant-on-money {
+  width: 550px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 15%;
+
+}
+
+#tranformgreen {
+  display: flex;
+  margin-left: 6%;
+  margin-bottom: 70px;
+  margin-top: 100px;
+  font-size: 37px;
+}
+
+#plantp {
+  margin-left: 12%;
+}
+
+.clight {
+  background-image: url(./Assests/circle-light.svg);
+  width: 1368px;
+  height: 553px;
+  background-size: cover;
+  background-position: center;
+  background-repeat:  no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.chooseplantpay {
+  padding-top: 15%;
+  display: flex;
+justify-content: space-between;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  width: 10%;
+  margin-top: 20%;
+  margin-left: 8%;
+}
+.cpara {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  width: 37%;
+  gap: 20px;
+  font-size: 15px;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+#simp-para {
+  display: flex;
+
+}
+#simp-header{
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 400px 800px;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.grid-container > div {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.choose-your-plant{
+  display: flex;
+  justify-content: center;
+}
